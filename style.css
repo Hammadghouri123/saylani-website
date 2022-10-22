@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.container1{
+    background-color: hsl(209, 100%, 55%);
+   width: 100%;
+    height: 45px;
+}
+.container1 ul {
+    list-style: none;
+    display: inline-flex;
+}
+.container1 ul {
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+
+.container1 ul li a b{
+    margin-left: 18px;
+}
+.container1 ul li p{
+    margin-left: 100px;
+   
+    color: white;
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube,.fa-whatsapp{
+    color: white;
+    size: 100px;
+}
+.one{
+        margin-left: 100px;
+        list-style: none;
+        display: inline-flex;
+        
+}
+.two,.three{
+    margin-left: 5px;
+    
+}
+.one li input{
+    margin: 2px;
+    padding: 3px;
+    color: green;
+    
+}
+/*navbar css*/
+.container ul li a.home {
+    color: #1890ff;
+}
+
+.image {
+    width: 180px;
+    height: 60px;
+    margin-left: 25px;
+    
+}
+
+button {
+    color: white;
+    background-color: #1890ff;
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: #1890ff;
+}
+button:hover{
+    width: 130px;
+    height: 60px;
+    border-radius: 15px;
+
+}
+
+.container {
+    background-color: white;
+    font-family: sans-serif;
+   text-align: center;
+    
+}
+
+.container ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.container ul li {
+    width: 90px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.container ul li a.uk {
+    color: #8dc63f;
+}
+
+.container ul li a.usa {
+    color: #8dc63f;
+}
+
+.container ul li a.uk:hover {
+    color: #1890ff;
+}
+
+.container ul li a.usa:hover {
+    color: #1890ff;
+}
+
+.submenu-1 {
+    display: none;
+}
+
+.container ul li:hover .submenu-1 {
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 3px;
+}
+
+.container ul li:hover .submenu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.container ul li:hover .submenu-1 ul li {
+    width: 220px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0px;
+    background: transparent;
+}
+
+.container ul li:hover .submenu-1 ul li:hover {
+    width: 220px;
+    background-color: #8dc63f;
+    color: white;
+
+}
+
+.submenu-2 {
+    display: none;
+}
+
+.hover-1:hover .submenu-2 {
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: white;
+    color: black;
+}
+/*navbar css end*/
+/*second start*/
+.blue{
+    color: #1890ff;
+    display: inline;
+    
+}
+.green{
+    color: #8dc63f;
+    display: inline; 
+}
+.greenblue{
+    text-align: center;
+}
+.circle{
+    width:30px;
+    margin-left: 620px;
+}
+.row{
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.row1{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.col{ 
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    border-color: white;
+     border-radius: 10px;
+     margin-left: 50px;
+     border-radius: 6px;
+     box-shadow: 8px 8px 20px;
+ }
+.col img{
+     margin-left: 85px;
+     margin-top: 15px;
+ }
+.col h1{
+    
+
+    color: #1890ff;
+    font-size: 18px;
+ }
+/*second end*/
+/*start of next thing*/
+.next{
+    margin-top: 40px;
+
+    background-color: aliceblue;
+    width: 1263px;
+    height: 200px;
+    
+}
+.move{
+    margin-left: 270px;
+    border-spacing: 10px;
+}
+#box{
+    margin-top: 500px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px ;
+    background-color: rgb(202, 202, 202);
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+ }
+ #para1 p{
+    margin-left: 100px;
+ }
+#para{
+    width: 300px;
+    height: 40px;
+    font-size: 12px;
+}
+#para p{
+    margin-left: 100px;
+}
+/*end of next thing*/
+/*start of image gallery*/
+.image{
+    
+    text-align: center;
+    margin: 0 auto;
+}
+.img{
+    margin-left: 130px;
+
+}
+.img img{
+    
+    height: 100px;
+    width: 200px;
+}
+/*end of image gallery*/
+/*start of text*/
+.text{
+    text-align: center;
+    margin: 0 auto;
+    text-align: justify;
+    width: 900px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*end of text*/
+/*start of blue*/
+.last{
+    width: 100%;
+    height: 200px;
+ background-color: #1890ff;
+ 
+ 
+}
+.last1{
+    color: white;
+    text-align: center;
+    border-spacing: 6px;
+    padding-top:25px;
+    border-spacing: 170px 6px ;
+  
+
+    
+    
+}
+
+
+.last1 tr td img{
+    width: 40px;
+    align-items: center;
+}
+/*end of blue*/
